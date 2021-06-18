@@ -1,10 +1,15 @@
-package com.example.lolitademoexamen;
+package com.example.lolitademoexamen.signup;
 
 public class RegisterRequest {
 
+    private String email;
+    private String password;
+    private String firstName;
+    private String lastName;
 
-    private String email, password, firstName, lastName;
-    public String getEmail() { return email; }
+    public String getEmail() {
+        return email;
+    }
 
     public void setEmail(String email) {
         this.email = email;
