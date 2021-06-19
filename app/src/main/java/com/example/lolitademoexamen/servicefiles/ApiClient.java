@@ -1,4 +1,4 @@
-package com.example.lolitademoexamen;
+package com.example.lolitademoexamen.servicefiles;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -13,19 +13,20 @@ public class ApiClient {
     public static Retrofit getRetrofit(){
         HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor();
         httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-
         OkHttpClient okHttpClient = new OkHttpClient.Builder().addInterceptor(httpLoggingInterceptor).build();
         Gson gson = new GsonBuilder()
-                .setLenient().create();
-        Retrofit retrofit = new Retrofit.Builder().addConverterFactory(GsonConverterFactory.create(gson)).client(okHttpClient).baseUrl("http://cinema.areas.su").build();
-
+                .setLenient()
+                .create();
+        Retrofit retrofit = new Retrofit.Builder()
+                .client(okHttpClient)
+                .addConverterFactory(GsonConverterFactory.create(gson))
+                .baseUrl("http://cinema.areas.su")
+                .build();
         return retrofit;
     }
 
     public static UserService getService(){
         UserService userService = ApiClient.getRetrofit().create(UserService.class);
-
         return userService;
     }
-
 }

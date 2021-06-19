@@ -1,4 +1,4 @@
-package com.example.lolitademoexamen;
+package com.example.lolitademoexamen.signin;
 
 public class LoginResponse {
 

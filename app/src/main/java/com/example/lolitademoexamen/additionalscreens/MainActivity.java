@@ -1,8 +1,10 @@
-package com.example.lolitademoexamen;
+package com.example.lolitademoexamen.additionalscreens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.lolitademoexamen.R;
 
 public class MainActivity extends AppCompatActivity {
 

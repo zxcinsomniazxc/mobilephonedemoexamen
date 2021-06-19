@@ -1,5 +1,7 @@
-package com.example.lolitademoexamen;
+package com.example.lolitademoexamen.servicefiles;
 
+import com.example.lolitademoexamen.signin.LoginRequest;
+import com.example.lolitademoexamen.signin.LoginResponse;
 import com.example.lolitademoexamen.signup.RegisterRequest;
 import com.example.lolitademoexamen.signup.RegisterResponse;
 

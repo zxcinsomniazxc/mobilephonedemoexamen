@@ -1,10 +1,12 @@
-package com.example.lolitademoexamen;
+package com.example.lolitademoexamen.additionalscreens;
 
 import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.lolitademoexamen.R;
+import com.example.lolitademoexamen.signin.LoginScreen;
 import com.example.lolitademoexamen.signup.RegisterScreen;
 
 import java.util.Timer;

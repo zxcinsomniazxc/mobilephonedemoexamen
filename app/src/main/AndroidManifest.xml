@@ -12,9 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lolitademoexamen">
         <activity android:name=".signup.RegisterScreen"/>
-        <activity android:name=".LoginScreen" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".StartScreen">
+        <activity android:name=".signin.LoginScreen" />
+        <activity android:name=".additionalscreens.MainActivity" />
+        <activity android:name=".additionalscreens.StartScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

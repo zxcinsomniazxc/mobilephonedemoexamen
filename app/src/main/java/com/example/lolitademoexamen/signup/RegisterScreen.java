@@ -13,8 +13,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.lolitademoexamen.ApiClient;
-import com.example.lolitademoexamen.LoginScreen;
+import com.example.lolitademoexamen.servicefiles.ApiClient;
+import com.example.lolitademoexamen.signin.LoginScreen;
 import com.example.lolitademoexamen.R;
 
 import retrofit2.Call;
