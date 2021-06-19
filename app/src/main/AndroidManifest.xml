@@ -11,8 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lolitademoexamen">
-        <activity android:name=".signup.RegisterScreen"/>
-        <activity android:name=".signin.LoginScreen" />
+        <activity android:name=".registration.RegisterScreen"/>
+        <activity android:name=".autorisation.LoginScreen" />
         <activity android:name=".additionalscreens.MainActivity" />
         <activity android:name=".additionalscreens.StartScreen">
             <intent-filter>

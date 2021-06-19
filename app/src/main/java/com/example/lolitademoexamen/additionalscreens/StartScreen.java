@@ -6,8 +6,8 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.lolitademoexamen.R;
-import com.example.lolitademoexamen.signin.LoginScreen;
-import com.example.lolitademoexamen.signup.RegisterScreen;
+import com.example.lolitademoexamen.autorisation.LoginScreen;
+import com.example.lolitademoexamen.registration.RegisterScreen;
 
 import java.util.Timer;
 import java.util.TimerTask;

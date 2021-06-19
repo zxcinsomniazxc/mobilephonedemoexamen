@@ -1,9 +1,9 @@
 package com.example.lolitademoexamen.servicefiles;
 
-import com.example.lolitademoexamen.signin.LoginRequest;
-import com.example.lolitademoexamen.signin.LoginResponse;
-import com.example.lolitademoexamen.signup.RegisterRequest;
-import com.example.lolitademoexamen.signup.RegisterResponse;
+import com.example.lolitademoexamen.autorisation.LoginRequest;
+import com.example.lolitademoexamen.autorisation.LoginResponse;
+import com.example.lolitademoexamen.registration.RegisterRequest;
+import com.example.lolitademoexamen.registration.RegisterResponse;
 
 import retrofit2.Call;
 import retrofit2.http.Body;

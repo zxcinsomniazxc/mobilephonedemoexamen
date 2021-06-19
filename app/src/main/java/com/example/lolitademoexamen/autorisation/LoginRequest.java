@@ -1,4 +1,4 @@
-package com.example.lolitademoexamen.signin;
+package com.example.lolitademoexamen.autorisation;
 
 public class LoginRequest {
 

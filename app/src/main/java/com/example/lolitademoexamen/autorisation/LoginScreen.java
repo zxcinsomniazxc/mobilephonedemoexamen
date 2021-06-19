@@ -1,4 +1,4 @@
-package com.example.lolitademoexamen.signin;
+package com.example.lolitademoexamen.autorisation;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.lolitademoexamen.servicefiles.ApiClient;
 import com.example.lolitademoexamen.additionalscreens.MainActivity;
 import com.example.lolitademoexamen.R;
-import com.example.lolitademoexamen.signup.RegisterScreen;
+import com.example.lolitademoexamen.registration.RegisterScreen;
 
 import retrofit2.Call;
 import retrofit2.Callback;

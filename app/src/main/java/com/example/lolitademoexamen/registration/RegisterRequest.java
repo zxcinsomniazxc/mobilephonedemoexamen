@@ -1,4 +1,4 @@
-package com.example.lolitademoexamen.signup;
+package com.example.lolitademoexamen.registration;
 
 public class RegisterRequest {
 
